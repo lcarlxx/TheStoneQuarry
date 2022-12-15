@@ -10,23 +10,19 @@
   color: white;
   font-family: Corbel;
 }
-.header {
-  background-color: rgb(0, 0, 0);
-}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: black;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: relative;
   top: 0;
-  display: flex;
 }
 
 li {
-  align-items: center;
+  float:none;
 }
 
 li a {
@@ -34,12 +30,13 @@ li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
+  font-size: 18px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .active {
